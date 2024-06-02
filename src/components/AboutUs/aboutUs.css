@@ -1,0 +1,60 @@
+#aboutUs {
+    padding: 60px 0;
+    background-image: url(/src/assets/about/about-shape.png);
+    background-repeat: no-repeat;
+}
+
+#aboutUs .container .info_container .info_title {
+    margin-bottom: 25px;
+}
+
+#aboutUs .container .info_container {
+    flex: 1;
+}
+
+#aboutUs .container .image_container {
+    flex: 1;
+}
+
+#aboutUs .container .image_container .image_box {
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Define the animation */
+/* @keyframes float-up-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+Apply the animation to the image .image-to-animate {
+    animation: float-up-down 2s ease-in-out infinite alternate;
+} */
+
+
+#aboutUs .container .image_container .image_box img {
+    height: 100%;
+    width: 100%;
+    animation: float-up-down 9s ease-in-out infinite alternate;
+    -webkit-animation: float-up-down 9s ease-in-out infinite alternate;
+}
+
+@media(max-width: 780px) {
+    #aboutUs .container .ant-flex {
+        flex-direction: column-reverse;
+    }
+
+    #aboutUs .container .info_container h1 {
+        font-size: 35px;
+        font-weight: 800;
+    }
+}

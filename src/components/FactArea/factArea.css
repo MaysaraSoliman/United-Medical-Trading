@@ -1,0 +1,13 @@
+#factArea {
+    padding: 60px 0;
+    background: url(/src//assets/factArea/map.png) no-repeat center;
+    background-color: var(--green-color);
+}
+
+#factArea .fact_container {
+    text-align: center;
+}
+
+#factArea h1, #factArea h3 {
+    color: white !important;
+}

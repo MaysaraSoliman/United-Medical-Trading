@@ -1,0 +1,44 @@
+#whyChooseUs .whyChooseUs_container .mm {
+    background-image: url(/src/assets/whyChooseUs/chooseUs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    width: 100%;
+}
+
+#whyChooseUs .whyChooseUs_container .info {
+    padding: 60px 0;
+}
+
+#whyChooseUs .whyChooseUs_container .info .text {
+    margin-top: 15px;
+}
+
+#whyChooseUs .whyChooseUs_container .info .items {
+    margin-top: 35px;
+}
+
+#whyChooseUs .whyChooseUs_container .info .items li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+#whyChooseUs .whyChooseUs_container .info .items li .anticon-check {
+    border: 2px solid var(--green-color);
+    border-radius: 50%;
+    padding: 10px;
+    color: var(--green-color);
+    font-size: 16px;
+}
+
+#whyChooseUs .whyChooseUs_container .info .items li h3 {
+    color: var(--yellow-color);
+    margin-bottom: 5px;
+}
+
+#whyChooseUs .whyChooseUs_container .col_box .image_box img {
+    width: 100%;
+    height: 100%;
+}

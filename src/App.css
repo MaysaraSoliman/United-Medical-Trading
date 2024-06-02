@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.poppins-font {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+:root {
+  --blue-color: #2999FB;
+  --yellow-color: #F9C861;
+  --green-color: #8fb569;
+  --btn-bg-color: #f76b6a;
+  --btn-border-color: #f76b6a;
+  --green-btn-bg-color: #79b530;
+  --green-btn-border-bg-color: #79b530;
+  --active_color: #f76b6a;
+  --secondary-color: #fff;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.componentsSpaces {
+  padding: 60px 0;
+}
+
+.ant-layout {
+  background-color: #fff !important;
+}
+
+.ant-layout-header {
+  background-color: white;
+  border-bottom: 1px solid #d2d2d2;
+  height: auto;
+  padding: 0;
+}
+
+.ant-layout-header .ant-menu {
+  background-color: #ffffff;
+}
+
+/* Start Ant-Menu Horizontal */
+
+/* .ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected {
+  color: var(--active_color);
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected::after {
+  border-bottom-color: var(--btn-border-color);
+}
+
+.ant-menu-light.ant-menu-horizontal>.ant-menu-item:hover::after {
+  border-bottom-color: var(--btn-border-color);
+} */
+
+/* End Ant-Menu Horizontal */
+
+
+/* Start Ant-Menu Vertical */
+
+/* .ant-menu-light.ant-menu-vertical>.ant-menu-item-selected {
+  color: var(--active_color);
+}
+
+.ant-menu-light.ant-menu-vertical>.ant-menu-item-selected::after {
+  border-bottom-color: var(--btn-border-color);
+}
+
+.ant-menu-light.ant-menu-vertical>.ant-menu-item:hover::after {
+  border-bottom-color: var(--btn-border-color);
+}
+*/
+
+.ant-menu-vertical.ant-menu-root {
+  background-color: transparent;
+}
+
+.button button {
+  color: white;
+}
+
+.subTitle {
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #647589 !important;
+}
+
+
+h1, h2 {
+  color: var(--blue-color) !important;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif !important;
+  margin-top: 0px !important;
+  margin-bottom: 5px !important;
+  font-weight: 600 !important;
+  font-size: 60px !important;
+  letter-spacing: -0.3px;
+  line-height: 1.22;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 24px !important;
+  letter-spacing: -0.3px !important;
+}
+
+@media (max-width: 780px) {
+  h1 {
+    font-size: 28px !important;
+  }
+}
+
+/* End Ant-Menu Vertical */
+
+.slick-dots li button:before {
+  color: transparent !important;
+}
