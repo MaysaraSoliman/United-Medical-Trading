@@ -10,7 +10,7 @@ export default function WhyChooseUs() {
       <div className="container">
         <div className="whyChooseUs_container">
           <Row gutter={16}>
-            <Col className="gutter-row" sm={24} md={12}>
+            <Col className="gutter-row" sm={24} lg={12}>
               <div className="col_box info">
                 <Title className="subTitle" level={3}>
                   Why Choose Us
@@ -45,7 +45,7 @@ export default function WhyChooseUs() {
                 </ul>
               </div>
             </Col>
-            <Col className="gutter-row mm" sm={24} md={12}>
+            <Col className="gutter-row main_image" sm={24} lg={12}>
               <div className="col_box">
                 <div className="image_box">
                   {/* <img src="/src/assets/whyChooseUs/chooseUs.jpg" alt="" /> */}

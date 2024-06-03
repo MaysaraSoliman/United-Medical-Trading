@@ -2,6 +2,7 @@ import { Layout } from "antd";
 import { Content, Footer, Header } from "antd/es/layout/layout";
 import MainHeader from "./components/MainHeader/MainHeader";
 import Home from "./pages/Home";
+import FooterComponent from "./components/Footer/FooterComponent";
 
 export default function Root() {
   return (
@@ -13,7 +14,9 @@ export default function Root() {
             <Content>
               <Home/>
             </Content>
-            <Footer></Footer>
+            <Footer style={{backgroundColor: "#003242"}}>
+              <FooterComponent/>
+            </Footer>
         </Layout>
     </div>
   )

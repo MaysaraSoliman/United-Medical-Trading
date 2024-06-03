@@ -14,7 +14,9 @@ export default function DesktopNavBar({
   handleNavBarSelectedKey: MenuProps["onClick"];
   logo: string;
   setSelectedKey: React.Dispatch<React.SetStateAction<string>>;
-}) {
+}) 
+{
+
   return (
     <div id="desktop_navBar">
       <div className="container">

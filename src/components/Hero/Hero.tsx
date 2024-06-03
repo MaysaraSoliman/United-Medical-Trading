@@ -1,7 +1,6 @@
 import { Button, Carousel } from "antd";
 import "./hero.css";
 import { Typography } from "antd";
-import { Link } from "react-router-dom";
 
 const { Title } = Typography;
 
@@ -15,9 +14,13 @@ export default function Hero() {
             <Title>Your Medical Needs </Title>
             <Title>Solved</Title>
             <div className="button">
-              <Link to={"/"}>
+              <a
+                href="https://wa.me/1234567890?text=Hello"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button>Let's Talk</Button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -27,9 +30,13 @@ export default function Hero() {
             <Title>Quality Care</Title>
             <Title>Delivered</Title>
             <div className="button">
-              <Link to={"/"}>
+              <a
+                href="https://wa.me/1234567890?text=Hello"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button>Let's Talk</Button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -39,9 +46,13 @@ export default function Hero() {
             <Title>Cost-Effective</Title>
             <Title>Medical Supplies</Title>
             <div className="button">
-              <Link to={"/"}>
+              <a
+                href="https://wa.me/1234567890?text=Hello"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button>Let's Talk</Button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

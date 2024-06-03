@@ -14,19 +14,19 @@ export default function MainHeader() {
       key: "",
     },
     {
-      label: "About Us",
+      label: <a href="#aboutUs">About Us</a>,
       key: "about us",
     },
     {
-      label: "Services",
+      label: <a href="#services">Services</a>,
       key: "services",
     },
     {
-      label: "Team",
-      key: "team",
+      label:  <a href="#partners">Partners</a>,
+      key: "partners",
     },
     {
-      label: "Contact Us",
+      label: <a href="#footer">Contact Us</a>,
       key: "contact us",
     },
   ];
@@ -44,7 +44,7 @@ export default function MainHeader() {
           navItems={items}
           selectedKey={selectedKey}
           handleNavBarSelectedKey={handleNavBarSelectedKey}
-          setSelectedKey= {setSelectedKey}
+          setSelectedKey={setSelectedKey}
         />
       ) : (
         <MobileNavBar
@@ -52,7 +52,7 @@ export default function MainHeader() {
           navItems={items}
           selectedKey={selectedKey}
           handleNavBarSelectedKey={handleNavBarSelectedKey}
-          setSelectedKey= {setSelectedKey}
+          setSelectedKey={setSelectedKey}
         />
       )}
     </div>

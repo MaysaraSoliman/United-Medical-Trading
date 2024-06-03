@@ -1,5 +1,6 @@
 #how_we_work {
     padding: 60px 0;
+    background-color: var(--bg-color);
 }
 
 #how_we_work .howWeWork_container .howWeWork_Title {
@@ -9,6 +10,7 @@
     flex-direction: column;
     margin-bottom: 35px;
     background: url(/src/assets/services/title_image.png) no-repeat center;
+    text-align: center;
 }
 
 #how_we_work .howWeWork_container .howWeWork_items {

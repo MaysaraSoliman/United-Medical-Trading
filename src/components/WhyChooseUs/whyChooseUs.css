@@ -1,4 +1,4 @@
-#whyChooseUs .whyChooseUs_container .mm {
+#whyChooseUs .whyChooseUs_container .main_image {
     background-image: url(/src/assets/whyChooseUs/chooseUs.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,11 +34,21 @@
 }
 
 #whyChooseUs .whyChooseUs_container .info .items li h3 {
-    color: var(--yellow-color);
+    color: #4d8d4d;
     margin-bottom: 5px;
 }
 
 #whyChooseUs .whyChooseUs_container .col_box .image_box img {
     width: 100%;
     height: 100%;
+}
+
+@media(max-width: 991px) {
+    #whyChooseUs .whyChooseUs_container .main_image {
+        display: none;
+    }
+
+    #whyChooseUs .whyChooseUs_container .info {
+        padding: 40px 0;
+    }
 }

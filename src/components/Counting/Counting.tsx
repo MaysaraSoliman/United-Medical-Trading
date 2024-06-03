@@ -1,3 +1,4 @@
+import { PlusOutlined } from "@ant-design/icons";
 import "./counting.css";
 import type { StatisticProps } from "antd";
 import { Col, Row, Statistic } from "antd";
@@ -7,7 +8,7 @@ import CountUp from "react-countup";
 export default function Counting() {
   const [isInView, setIsInView] = useState(false);
   const formatter: StatisticProps["formatter"] = (value) =>
-    isInView ? <CountUp end={value as number} separator="," /> : value;
+    isInView ? <CountUp end={value as number} separator="," /> : 0;
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -17,7 +18,7 @@ export default function Counting() {
         }
       },
       {
-        threshold: 0.1, // Trigger when 10% of the target is visible
+        threshold: 0.7, // Trigger when 10% of the target is visible
       }
     );
 
@@ -39,7 +40,12 @@ export default function Counting() {
         <div className="counting_container">
           <Row gutter={16}>
             <Col xs={12} md={6}>
-              <Statistic title="Partners" value={12} formatter={formatter} />
+              <Statistic
+                title="Partners"
+                value={43}
+                formatter={formatter}
+                prefix={<PlusOutlined />}
+              />
             </Col>
             <Col xs={12} md={6}>
               <Statistic
@@ -47,22 +53,25 @@ export default function Counting() {
                 value={60}
                 precision={2}
                 formatter={formatter}
+                prefix={<PlusOutlined />}
               />
             </Col>
             <Col xs={12} md={6}>
               <Statistic
                 title="Team"
-                value={10}
+                value={30}
                 precision={2}
                 formatter={formatter}
+                prefix={<PlusOutlined />}
               />
             </Col>
             <Col xs={12} md={6}>
               <Statistic
                 title="Projects"
-                value={100}
+                value={1000}
                 precision={2}
                 formatter={formatter}
+                prefix={<PlusOutlined />}
               />
             </Col>
           </Row>

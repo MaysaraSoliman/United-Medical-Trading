@@ -1,0 +1,170 @@
+#footer {
+    padding: 30px 0 0;
+}
+
+#footer .container .footer_container {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #f25073;
+    border-color: #5dbed81a;
+    border-width: 1px;
+}
+
+#footer .container .footer_container .col_box {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+#footer .container .footer_container h3 {
+    color: white;
+    position: relative;
+}
+
+#footer .container .footer_container .message_container h3 {
+    padding-left: 15px;
+}
+
+#footer .container .footer_container .message_container h3::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 4px;
+    height: 80%;
+    background-color: var(--blue-color);
+    transform: translateY(-50%);
+}
+
+#footer .container .footer_container span.ant-typography {
+    color: white;
+}
+
+#footer .container .footer_container .message_container .links {
+    display: flex;
+    gap: 10px;
+    margin: 40px 0 0;
+}
+
+#footer .container .footer_container .message_container .links .image_box {
+    width: 40px;
+}
+
+#footer .container .footer_container .message_container .links .image_box img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+#footer .container .footer_container .message_container .links .image_box img:hover {
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+
+#footer .container .footer_container .call_container .col_box {
+    background: linear-gradient(90deg, rgba(76, 188, 211, 1) 0%, rgba(1, 140, 196, 1) 100%);
+}
+
+#footer .container .footer_container .call_container .title_container,
+#footer .container .footer_container .schedule_container .title_container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #f25073;
+    border-color: #5dbed8;
+    border-width: 1px;
+}
+
+#footer .container .footer_container .call_container .title_container .image_box,
+#footer .container .footer_container .schedule_container .title_container .image_box {
+    width: 80px;
+}
+
+#footer .container .footer_container .image_box img {
+    width: 100%;
+    height: 100%;
+}
+
+#footer .container .footer_container .call_container .contact_icons {
+    padding: 10px;
+}
+
+#footer .container .footer_container .call_container .contact_icons li {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+#footer .container .footer_container .call_container .contact_icons li .image_box {
+    max-width: 30px;
+    min-width: 30px;
+    flex: 1;
+}
+
+#footer .container .footer_container .call_container .contact_icons li a {
+    flex: 1;
+    font-size: 16px;
+    color: white;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#footer .container .footer_container .schedule_container .opening_hours {
+    background: url(/src/assets/footer/open-hour-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#footer .container .footer_container .schedule_container .opening_hours::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background: #003242;
+    opacity: 0.92;
+}
+
+#footer .container .footer_container .schedule_container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer .container .footer_container .schedule_container ul li h4 {
+    margin: 0 10px 20px;
+    color: white;
+}
+
+
+#footer .container .copyRights {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#footer .container .copyRights h4 {
+    font-size: 14px;
+    color: #9aacbb;
+}
+
+@media(max-width: 991px) {
+
+    #footer .container .footer_container .gutter_box {
+        gap: 20px;
+    }
+}

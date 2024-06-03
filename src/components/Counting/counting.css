@@ -23,3 +23,7 @@
     font-size: 36px;
     font-weight: 600;
 }
+
+#counting .ant-statistic .ant-statistic-content-prefix {
+    font-size: 24px;
+}
