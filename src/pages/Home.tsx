@@ -1,5 +1,6 @@
 import AboutUs from "../components/AboutUs/AboutUs";
 import Counting from "../components/Counting/Counting";
+import Equipments from "../components/Equipments/Equipments";
 import FactArea from "../components/FactArea/FactArea";
 import Hero from "../components/Hero/Hero";
 import HowWeWork from "../components/HowWeWork/HowWeWork";
@@ -21,7 +22,7 @@ export default function Home() {
       <VisionMisson/>
       <HowWeWork/>
       <Partners/>
-      <Services/>
+      <Equipments/>
       <ScrollToTop/>
     </div>
   )

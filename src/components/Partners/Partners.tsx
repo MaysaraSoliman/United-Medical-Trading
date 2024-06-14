@@ -6,7 +6,6 @@ const { Title } = Typography;
 
 export default function Partners() {
   const settings = {
-    // dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -20,24 +19,54 @@ export default function Partners() {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-        }
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-        }
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-        }
-      }
-    ]
+        },
+      },
+    ],
   };
+
+  const brands = [
+    { logo: "/src/assets/partners/1.jpg" },
+    { logo: "/src/assets/partners/2.jpg" },
+    { logo: "/src/assets/partners/3.jpg" },
+    { logo: "/src/assets/partners/4.jpg" },
+    { logo: "/src/assets/partners/5.jpg" },
+    { logo: "/src/assets/partners/6.jpg" },
+    { logo: "/src/assets/partners/7.jpg" },
+    { logo: "/src/assets/partners/8.jpg" },
+    { logo: "/src/assets/partners/9.jpg" },
+    { logo: "/src/assets/partners/10.jpg" },
+    { logo: "/src/assets/partners/11.jpg" },
+    { logo: "/src/assets/partners/12.jpg" },
+    { logo: "/src/assets/partners/13.jpg" },
+    { logo: "/src/assets/partners/14.jpg" },
+    { logo: "/src/assets/partners/15.jpg" },
+    { logo: "/src/assets/partners/16.jpg" },
+    { logo: "/src/assets/partners/17.jpg" },
+    { logo: "/src/assets/partners/18.jpg" },
+    { logo: "/src/assets/partners/19.jpg" },
+    { logo: "/src/assets/partners/20.jpg" },
+    { logo: "/src/assets/partners/21.jpg" },
+    { logo: "/src/assets/partners/22.jpg" },
+    { logo: "/src/assets/partners/23.jpg" },
+    { logo: "/src/assets/partners/24.jpg" },
+    { logo: "/src/assets/partners/25.jpg" },
+    { logo: "/src/assets/partners/26.jpg" },
+  ];
+
   return (
     <section id="partners">
       <div className="container">
@@ -51,36 +80,13 @@ export default function Partners() {
           </div>
           <div className="slider-container">
             <Slider {...settings}>
-              <div>
-                <div className="image_box">
-                  <img src="/src/assets/partners/brand1.png" alt="" />
+              {brands.map((brand) => (
+                <div>
+                  <div className="image_box">
+                    <img src={brand?.logo} alt="" />
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div className="image_box">
-                  <img src="/src/assets/partners/brand2.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div className="image_box">
-                  <img src="/src/assets/partners/brand3.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div className="image_box">
-                  <img src="/src/assets/partners/brand4.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div className="image_box">
-                  <img src="/src/assets/partners/brand5.png" alt="" />
-                </div>
-              </div>
-              {/* <div>
-                <div className="image_box">
-                  <img src="/src/assets/partners/brand1.png" alt="" />
-                </div>
-              </div> */}
+              ))}
             </Slider>
           </div>
         </div>

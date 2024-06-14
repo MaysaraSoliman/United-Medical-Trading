@@ -1,0 +1,214 @@
+#Equipments {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+#Equipments .equipments_container .equipments_Title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+    background: url(/src/assets/services/title_image.png) no-repeat center;
+    text-align: center;
+}
+
+#Equipments .equipments_container .equipments_items {
+    margin: 70px 0;
+}
+
+#Equipments .equipments_container .equipments_items .card_box {
+    display: flex !important;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#Equipments .equipments_container .equipments_items .card_box .image_box {
+    padding: 15px;
+    /* width: 200px; */
+    height: 250px;
+}
+
+#Equipments .equipments_container .equipments_items .card_box .image_box::after {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    height: 63%;
+    width: 1px;
+    background-color: #ccc;
+    transform: translateY(50%);
+}
+
+#Equipments .equipments_container .equipments_items .card_box .image_box img {
+    width: 100%;
+    height: 100%;
+}
+
+#Equipments .equipments_container .equipments_items .card_box .info_box {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#Equipments .equipments_container .equipments_items .card_box .info_box .equipment_title {
+    position: relative;
+    padding: 0 0 10px;
+}
+
+#Equipments .equipments_container .equipments_items .card_box .info_box .equipment_title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 1px;
+    width: 60%;
+    background-color: #ccc;
+    transform: translateX(-50%);
+}
+
+#Equipments .equipments_container .equipments_items .card_box .info_box .equipment_title h4 {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+#Equipments .equipments_container .equipments_items .card_box .info_box .equipment_list {
+    margin-left: 15px;
+}
+
+#Equipments .equipments_container .equipments_items .card_box .info_box .equipment_list li::marker {
+    color: #2999FB;
+}
+
+#Equipments .equipments_container .slider-container {
+    overflow: hidden;
+}
+
+#Equipments .equipments_container .slick-slide {
+    display: flex;
+}
+
+#Equipments .equipments_container .slick-slide>div {
+    display: flex;
+    width: 100%;
+}
+
+#Equipments .equipments_container .slick-next, .slick-prev {
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 36px;
+    line-height: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    background-color: #2999FB;
+    border-radius: 50%;
+    z-index: 5;
+    opacity: 0.45;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+#Equipments .equipments_container .slick-next:hover, .slick-prev:hover {
+    opacity: 1;
+}
+
+#Equipments .equipments_container .slick-next:before, .slick-prev:before {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+}
+
+#Equipments .equipments_container .slick-next:before {
+    content: "→";
+}
+
+#Equipments .equipments_container .slick-prev:before {
+    content: "←";
+}
+
+#Equipments .equipments_container .slick-next {
+    right: 8px;
+}
+
+#Equipments .equipments_container .slick-prev {
+    left: 2px;
+}
+
+#Equipments .equipments_container .slick-track {
+    display: flex;
+    gap: 15px;
+}
+
+#Equipments .equipments_container .slick-dots {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+#Equipments .equipments_container .slick-dots li button {
+    border: 0;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    padding: 5px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+}
+
+#Equipments .equipments_container .slick-dots li button:before {
+    color: #2999FB !important;
+    content: "•";
+    font-size: 22px;
+    height: 20px;
+    left: 0;
+    line-height: 20px;
+    opacity: 0.25;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 20px;
+    background-color: white;
+}
+
+#Equipments .equipments_container .slick-dots .slick-active button:before {
+    opacity: 1 !important;
+}
+
+@media (max-width: 600px) {
+    #Equipments .equipments_container .equipments_items .card_box {
+        flex-direction: column;
+    }
+
+    #Equipments .equipments_container .equipments_items .card_box .image_box::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        height: 1px;
+        width: 100%;
+        background-color: #ccc;
+        transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        -o-transform: translateX(50%);
+    }
+}

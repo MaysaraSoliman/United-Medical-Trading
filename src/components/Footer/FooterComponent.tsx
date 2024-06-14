@@ -12,10 +12,13 @@ export default function FooterComponent() {
               <div className="col_box">
                 <Title level={3}>About Us</Title>
                 <Text>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Optio blanditiis quasi natus sint unde molestias obcaecati
-                  reiciendis magni mollitia eaque dicta earum sed dolorem quo
-                  pariatur impedit, quaerat eum nemo.
+                  United Medical Suppliers Trading was founded in 2020 in the
+                  State of Qatar in response to the Qatari robust and
+                  ever—growing medical field market needs. Conceived through the
+                  efforts of seasoned business administration and technical
+                  professionals, we are well equipped to provide excellent
+                  unsurpassed services to our clients in both the governmental
+                  and private sectors.
                 </Text>
                 <ul className="links">
                   <li>
@@ -147,7 +150,10 @@ export default function FooterComponent() {
           </Row>
         </div>
         <div className="copyRights">
-          <Title level={4}>&copy; 2024 By@Expanda. All rights reserved. </Title>
+          <Title level={4}>
+            &copy;2024 • All Rights Reserved | MADE BY EXPANDA WITH{" "}
+            <span className="heart">❤</span>{" "}
+          </Title>
         </div>
       </div>
     </div>

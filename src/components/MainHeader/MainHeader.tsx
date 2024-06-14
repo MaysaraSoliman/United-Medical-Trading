@@ -33,7 +33,7 @@ export default function MainHeader() {
 
   const [selectedKey, setSelectedKey] = useState<string>("");
   const handleNavBarSelectedKey: MenuProps["onClick"] = (e) => {
-    setSelectedKey(e.key);
+    // setSelectedKey(e.key);
   };
 
   return (
