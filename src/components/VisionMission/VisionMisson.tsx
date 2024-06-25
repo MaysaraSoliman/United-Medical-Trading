@@ -37,11 +37,15 @@ export default function VisionMisson() {
                       <img src="/src/assets/vision&mission/eye-2.png" alt="" />
                     </div>
                     <Paragraph>
-                      We intend to be the most reliable leader and biggest
-                      provider of medical, fitness and sport devices for
-                      healthcare facilities and individuals in Middle East
-                      region as we also aim to become a worldwide recognized
-                      brand which will associate with healthy lifestyle.
+                      United Medical Trading aims to be the foremost and largest
+                      purveyor of medical, fitness, and sports equipment in the
+                      Middle East, addressing the needs of healthcare
+                      organizations and personal users alike. Our goal is to
+                      attain global recognition as a brand emblematic of
+                      fostering a healthy lifestyle. Committed to quality,
+                      innovation, and customer fulfillment, we seek to pioneer
+                      new heights in the industry, catalyzing health and
+                      wellness initiatives beyond geographical boundaries.
                     </Paragraph>
                   </li>
                   <li>
@@ -52,10 +56,11 @@ export default function VisionMisson() {
                       />
                     </div>
                     <Paragraph>
-                      We supply medical, sports & fitness equipment of the
-                      highest quality and proven physio therapeutical results to
-                      every customer who wish to live a healthy life,
-                      provide advanced and effective medical service.
+                      Our mission is to provide top-tier medical, sports, and
+                      fitness equipment, demonstrating exceptional therapeutic
+                      benefits to our customers. We are dedicated to empowering
+                      individuals who aspire to live healthier lives and support
+                      the delivery of cutting-edge, impactful medical care.
                     </Paragraph>
                   </li>
                 </ul>

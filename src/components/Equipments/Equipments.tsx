@@ -115,12 +115,8 @@ export default function Equipments() {
                       <Title level={4}>Body Analyzer</Title>
                     </div>
                     <ul className="equipment_list">
-                      <li>skin lifting</li>
-                      <li>pore shrinking </li>
-                      <li>blackhead removal</li>
-                      <li>wrinkle reducing</li>
-                      <li>skin deep cleaning</li>
-                      <li>skin moisturizing</li>
+                      <li>providing accurate, human body data services</li>
+                      <li>used in commercial fitness and health fields </li>
                     </ul>
                   </div>
                 </div>

@@ -1,9 +1,55 @@
+import { useState } from "react";
 import "./howWeWork.css";
 import { Col, Row, Space, Typography } from "antd";
 
 const { Title, Paragraph } = Typography;
 
 export default function HowWeWork() {
+  const [ellipsis] = useState(true);
+  const items = [
+    {
+      title: `Medical & Analytical`,
+      imageSrc: "/src/assets/howWeWork/medical analytical.png",
+      content:
+        "Focuses on distributing medical/analytical equipment,devices, and supplies. Our range covers Medical,Physiotherapy, Dermatology, Gynaecology, Radiography(X-Ray), Ultrasound, Simulation, and Emergency care products. We provide detailed training to customers on using and maintaining supplied equipment, and participate in regional medical events to highlight our products and connect with industry peers.",
+    },
+    {
+      title: `Research & Scientific & Simulation`,
+      imageSrc: "/src/assets/howWeWork/research.png",
+      content:
+        "Engages in research and scientific projects, primarily serving scientists and researchers. We provide comprehensive support, including supply, installation, commissioning, training, and post-sale support, for all solutions and equipment offered by our department.",
+    },
+    {
+      title: `Beauty & Health`,
+      imageSrc: "/src/assets/howWeWork/healthcare.png",
+      content:
+        "Launched to spearhead the beauty and health market, this division serves as the official distributor for ADWIN KOREA, specializing in dermatological consumables.",
+    },
+    {
+      title: `Hospital Furniture`,
+      imageSrc: "/src/assets/howWeWork/hospital-svgrepo-com.png",
+      content:
+        "Providing high-quality hospital furniture solutions tailored to meet the evolving needs of healthcare facilities in Qatar. Our extensive range of products includes everything from examination tables and chairs to surgical instruments and medical equipment, all sourced from reputable manufacturers around the globe.",
+    },
+    {
+      title: `Consumer Products`,
+      imageSrc: "/src/assets/howWeWork/consumer-svgrepo-com.png",
+      content:
+        "At United Medical Trading, we believe in empowering individuals with the tools necessary to manage their health effectively, making us the go-to choice for consumers seeking reliable and affordable medical products. From everyday essentials like first aid kits and thermometers to specialized products such as blood pressure monitors and portable oxygen concentrators, our curated collection caters to a broad spectrum of health and wellness needs.",
+    },
+    {
+      title: `Dental Products`,
+      imageSrc: "/src/assets/howWeWork/chair-tooth-svgrepo-com.png",
+      content:
+        "As a trusted partner in the medical trading sector, United Medical Trading prides itself on providing dental professionals with the tools they need to thrive, backed by unparalleled service and expertise. Explore our dental product range today and discover how we're setting new benchmarks in dental supply and innovation in Qatar.",
+    },
+    {
+      title: `Laboratory Products`,
+      imageSrc: "/src/assets/howWeWork/laboratory-microscope-svgrepo-com.png",
+      content:
+        "United Medical Trading brings to Qatar a comprehensive range of laboratory products, ensuring that medical laboratories have access to the most advanced and reliable equipment and supplies needed for accurate diagnostics and research. Our selection includes state-of-the-art lab instruments, reagents, and consumables, carefully chosen from renowned global manufacturers to meet the stringent requirements of modern pathology and biomedical research.",
+    },
+  ];
   return (
     <section id="how_we_work">
       <div className="container">
@@ -16,84 +62,37 @@ export default function HowWeWork() {
               You Will Be Able To Access
             </Title>
             <Title className="title poppins-font ">
-             By Following 3 Steps
+              By Following Our Departments
             </Title>
           </div>
           <div className="howWeWork_items">
             <Row gutter={16}>
-              <Col className="gutter-row" xs={24}  md={8} >
-                <Space
-                  className="col_box"
-                  direction="vertical"
-                  size="middle"
-                  align="center"
-                >
-                  <div className="icon_box">
-                    <img
-                      src="/src/assets/howWeWork/medical analytical.png"
-                      alt=""
-                    />
-                  </div>
-                  <Title level={3}>Medical &amp; Analytical</Title>
-                  <div className="text">
-                    <Paragraph>
-                      Deals with medical/analytical equipment, devices &
-                      supplies. Our main activities center on Medical,
-                      Physiotherapy, Dermatology, Gynaecology, X—Ray,
-                      Ultrasound, Simulation & Emergency products.
-                    </Paragraph>
-                  </div>
-                </Space>
-              </Col>
-              <Col className="gutter-row" xs={24}  md={8} >
-                <Space
-                  className="col_box"
-                  direction="vertical"
-                  size="middle"
-                  align="center"
-                >
-                  <div className="icon_box">
-                    <img
-                      src="/src/assets/howWeWork/research.png"
-                      alt=""
-                    />
-                  </div>
-                  <Title level={3}>
-                    Research &amp; Scientific &amp; Simulation
-                  </Title>
-                  <div className="text">
-                    <Paragraph>
-                      Deals with Researches & Scientific projects. Our main
-                      customers are Scientists & Researches. We assist them in
-                      Supply, Install, Commissioning, Training, and After Sales
-                      Support for all the Solutions & Equipment provided by us.
-                    </Paragraph>
-                  </div>
-                </Space>
-              </Col>
-              <Col className="gutter-row" xs={24}  md={8} >
-                <Space
-                  className="col_box"
-                  direction="vertical"
-                  size="middle"
-                  align="center"
-                >
-                  <div className="icon_box">
-                    <img
-                      src="/src/assets/howWeWork/healthcare.png"
-                      alt=""
-                    />
-                  </div>
-                  <Title level={3}>Beauty &amp; Health  </Title>
-                  <div className="text">
-                    <Paragraph>
-                      Started this department to lead the market. We are
-                      official distributors for ADWIN KOREA Manufacturer and
-                      dermatology consumables.
-                    </Paragraph>
-                  </div>
-                </Space>
-              </Col>
+              {items.map((item) => (
+                <Col key={item.title} className="gutter-row" xs={24} md={8}>
+                  <Space
+                    className="col_box"
+                    direction="vertical"
+                    size="middle"
+                    align="center"
+                  >
+                    <div className="icon_box">
+                      <img src={item.imageSrc} alt="" />
+                    </div>
+                    <Title level={3}>{item.title} </Title>
+                    <div className="text">
+                      <Paragraph
+                        ellipsis={
+                          ellipsis
+                            ? { rows: 3, expandable: true, symbol: "more" }
+                            : false
+                        }
+                      >
+                        {item.content}
+                      </Paragraph>
+                    </div>
+                  </Space>
+                </Col>
+              ))}
             </Row>
           </div>
         </div>

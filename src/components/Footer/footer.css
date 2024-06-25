@@ -43,6 +43,7 @@
     display: flex;
     gap: 10px;
     margin: 40px 0 0;
+    list-style: none;
 }
 
 #footer .container .footer_container .message_container .links .image_box {

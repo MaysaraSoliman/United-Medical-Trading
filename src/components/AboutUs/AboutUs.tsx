@@ -18,21 +18,23 @@ export default function AboutUs() {
             </div>
             <div className="info_paragraph">
               <Paragraph>
-                United Medical Suppliers Trading was founded in 2020 in the
-                State of Qatar in response to the Qatari robust and ever—growing
-                medical field market needs. Conceived through the efforts of
-                seasoned business administration and technical professionals, we
-                are well equipped to provide excellent unsurpassed services to
-                our clients in both the governmental and private sectors.
+                United Medical Trading, established in 2019 within the rapidly
+                developing healthcare sector of Qatar, was formed to address the
+                increasing demands of the Qatari medical marketplace. Guided by
+                a team of seasoned professionals with expertise in business
+                administration and technological disciplines, the company is
+                strategically positioned to offer unparalleled service to its
+                clientele across both governmental and private sectors.
               </Paragraph>
               <Paragraph>
-                United Medical Suppliers principals are specifically well versed
-                in the Qatari medical field market, as they have already been
-                providing their services to it for more than 3 years. Their
-                expertise extends to the Biomedical Engineering, Information
-                Technology, Business Administration, and Customer Service
-                fields, which gives us on edge that will help us reach our goal
-                of becoming.
+                The leadership of United Medical Trading is characterized by its
+                deep-rooted knowledge and extensive experience in the Qatari
+                healthcare industry, a commitment demonstrated through over four
+                years of dedicated service to this market. Their areas of
+                expertise encompass Biomedical Engineering, Information
+                Technology, Business Administration, and Customer Service,
+                thereby granting the company a distinctive competitive edge as
+                it endeavors to fulfill its ambitious objectives.
               </Paragraph>
             </div>
           </div>

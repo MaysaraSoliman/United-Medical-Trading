@@ -14,7 +14,11 @@
 }
 
 #how_we_work .howWeWork_container .howWeWork_items {
-    margin: 70px 0;
+    margin: 70px 0 0;
+}
+
+#how_we_work .howWeWork_container .howWeWork_items .ant-row {
+    justify-content: center;
 }
 
 #how_we_work .howWeWork_container .howWeWork_items .gutter-row {

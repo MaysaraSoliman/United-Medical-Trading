@@ -12,7 +12,7 @@ export default function FooterComponent() {
               <div className="col_box">
                 <Title level={3}>About Us</Title>
                 <Text>
-                  United Medical Suppliers Trading was founded in 2020 in the
+                  United Medical Suppliers Trading was founded in 2019 in the
                   State of Qatar in response to the Qatari robust and
                   ever—growing medical field market needs. Conceived through the
                   efforts of seasoned business administration and technical
@@ -63,9 +63,6 @@ export default function FooterComponent() {
                   </div>
                   <div className="title_box">
                     <Title level={3}>Contact & Support</Title>
-                    <Text>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </Text>
                   </div>
                 </div>
                 <ul className="contact_icons">
@@ -130,9 +127,6 @@ export default function FooterComponent() {
                   </div>
                   <div className="title_box">
                     <Title level={3}>Opening Hours</Title>
-                    <Text>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </Text>
                   </div>
                 </div>
                 <ul className="contact_icons">

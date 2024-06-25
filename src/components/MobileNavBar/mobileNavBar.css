@@ -12,3 +12,7 @@
 #mobile_navBar .container .menu_icon {
     font-size: 22px;
 }
+
+.ant-drawer .navBar li a {
+    display: block;
+}

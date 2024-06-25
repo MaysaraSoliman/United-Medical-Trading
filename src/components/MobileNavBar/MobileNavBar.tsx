@@ -1,4 +1,4 @@
-import { Drawer, Flex, Menu, MenuProps } from "antd";
+import { Drawer, Flex, Menu } from "antd";
 import "./mobileNavBar.css";
 import { MenuOutlined } from "@ant-design/icons";
 import { useState } from "react";
@@ -6,13 +6,11 @@ import { Link } from "react-router-dom";
 export default function MobileNavBar({
   navItems,
   selectedKey,
-  handleNavBarSelectedKey,
   logo,
   setSelectedKey
 }: {
   navItems: { label: JSX.Element | string; key: string }[];
   selectedKey: string;
-  handleNavBarSelectedKey: MenuProps["onClick"];
   logo: string;
   setSelectedKey: React.Dispatch<React.SetStateAction<string>>;
 }) {
@@ -38,10 +36,13 @@ export default function MobileNavBar({
           <Drawer onClose={onCloseDrawer} open={isOpenDrawer}>
             <nav className="navBar">
               <Menu
-                onClick={handleNavBarSelectedKey}
                 mode="vertical"
                 selectedKeys={[selectedKey]}
-                items={navItems}
+                items={navItems.map(item => ({
+                  key: item.key,
+                  label: item.label,
+                  onClick: () => onCloseDrawer(),
+                }))}
               />
             </nav>
           </Drawer>

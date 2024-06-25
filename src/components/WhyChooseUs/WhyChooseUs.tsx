@@ -28,19 +28,19 @@ export default function WhyChooseUs() {
                 <ul className="items">
                   <li>
                     <CheckOutlined />
-                    <Title level={3}>Quality Assurance.</Title>
+                    <Title level={3}>Quality and Care.</Title>
                   </li>
                   <li>
                     <CheckOutlined />
-                    <Title level={3}>Customer-Centric Approach.</Title>
+                    <Title level={3}>Healthcare Excellence.</Title>
                   </li>
                   <li>
                     <CheckOutlined />
-                    <Title level={3}>Healthier Lives.</Title>
+                    <Title level={3}>Customer Orientation.</Title>
                   </li>
                   <li>
                     <CheckOutlined />
-                    <Title level={3}>Advanced Medical Services.</Title>
+                    <Title level={3}>Advanced Medical Solutions.</Title>
                   </li>
                 </ul>
               </div>

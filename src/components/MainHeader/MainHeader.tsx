@@ -3,7 +3,6 @@ import MobileNavBar from "../MobileNavBar/MobileNavBar";
 import DesktopNavBar from "../DesktopNavBar/DesktopNavBar";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { MenuProps } from "antd";
 
 export default function MainHeader() {
   const isMobile = useMediaQuery({ query: "(min-width: 600px)" });
@@ -32,9 +31,7 @@ export default function MainHeader() {
   ];
 
   const [selectedKey, setSelectedKey] = useState<string>("");
-  const handleNavBarSelectedKey: MenuProps["onClick"] = (e) => {
-    // setSelectedKey(e.key);
-  };
+
 
   return (
     <div className="main_header">
@@ -43,7 +40,6 @@ export default function MainHeader() {
           logo={logo}
           navItems={items}
           selectedKey={selectedKey}
-          handleNavBarSelectedKey={handleNavBarSelectedKey}
           setSelectedKey={setSelectedKey}
         />
       ) : (
@@ -51,7 +47,6 @@ export default function MainHeader() {
           logo={logo}
           navItems={items}
           selectedKey={selectedKey}
-          handleNavBarSelectedKey={handleNavBarSelectedKey}
           setSelectedKey={setSelectedKey}
         />
       )}

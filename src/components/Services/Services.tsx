@@ -19,7 +19,7 @@ export default function Services() {
           </div>
           <div className="services_items">
             <Row gutter={16}>
-              <Col className="gutter-row" xs={24} sm={12} >
+              <Col className="gutter-row" xs={24} sm={12}>
                 <Space
                   className="col_box"
                   direction="vertical"
@@ -37,15 +37,16 @@ export default function Services() {
                         : false
                     }
                   >
-                    Our advanced imaging systems are at the forefront of medical
-                    technology. From state-of-the-art MRI and CT scanners to
-                    high-resolution ultrasound machines, we provide healthcare
-                    professionals with the tools they need to visualize and
-                    diagnose medical conditions with unparalleled precision.
+                    Our cutting-edge imaging systems represent the pinnacle of
+                    medical technology, featuring state-of-the-art MRI and CT
+                    scanners alongside high-resolution ultrasound machines.
+                    These sophisticated tools empower healthcare professionals
+                    to visualize and diagnose medical conditions with unmatched
+                    accuracy, setting a new standard in patient care.
                   </Paragraph>
                 </Space>
               </Col>
-              <Col className="gutter-row" xs={24} sm={12} >
+              <Col className="gutter-row" xs={24} sm={12}>
                 <Space
                   className="col_box"
                   direction="vertical"
@@ -66,16 +67,16 @@ export default function Services() {
                         : false
                     }
                   >
-                    Precision and reliability are paramount in the operating
-                    room, and our range of surgical instruments is a testament
-                    to these principles. We offer an extensive selection of
-                    surgical tools and equipment, meticulously designed to
-                    ensure the utmost accuracy and safety in surgical
-                    procedures.
+                    In the realm of surgery, where precision and reliability are
+                    of utmost importance, our portfolio of surgical instruments
+                    exemplifies these core values. Featuring an array of
+                    meticulously crafted surgical tools and equipment, our
+                    offerings are engineered to guarantee unparalleled accuracy
+                    and safety during surgical interventions.
                   </Paragraph>
                 </Space>
               </Col>
-              <Col className="gutter-row" xs={24} sm={12} >
+              <Col className="gutter-row" xs={24} sm={12}>
                 <Space
                   className="col_box"
                   direction="vertical"
@@ -93,15 +94,21 @@ export default function Services() {
                         : false
                     }
                   >
-                    Keeping a vigilant eye on patients' vital signs is integral
-                    to effective care. NordMed Trading offers a comprehensive
-                    line of patient monitoring devices that are not only
-                    reliable but also intuitive, helping healthcare providers
-                    monitor and react to patient needs swiftly.
+                    Monitoring patients' vital signs with keen attention is
+                    fundamental to providing effective care. United Trading
+                    provides a wide range of patient monitoring devices that are
+                    dependable and user-friendly, aiding healthcare
+                    professionals in promptly responding to patients'
+                    requirements. Our diagnostic apparatus comprises
+                    state-of-the-art laboratory analyzers, point-of-care testing
+                    gadgets, and imaging diagnostic tools, laying the groundwork
+                    for precise medical practices. These tools empower
+                    healthcare practitioners to act swiftly based on accurate
+                    diagnoses.
                   </Paragraph>
                 </Space>
               </Col>
-              <Col className="gutter-row" xs={24} sm={12} >
+              <Col className="gutter-row" xs={24} sm={12}>
                 <Space
                   className="col_box"
                   direction="vertical"
@@ -119,10 +126,11 @@ export default function Services() {
                         : false
                     }
                   >
-                    Effective patient rehabilitation is an essential part of the
-                    healing process. We provide a range of rehabilitation aids
-                    and physiotherapy equipment designed to aid in patient
-                    recovery and improve overall quality of life.
+                    A crucial component of the healing journey is the successful
+                    rehabilitation of patients. Our collection of rehabilitation
+                    aids and physiotherapy gear is meticulously crafted to
+                    facilitate patient recuperation and elevate their overall
+                    well-being.
                   </Paragraph>
                 </Space>
               </Col>
