@@ -6,7 +6,8 @@ import { useState } from "react";
 
 export default function MainHeader() {
   const isMobile = useMediaQuery({ query: "(min-width: 600px)" });
-  const logo = "/src/assets/logo/logo.jpg";
+  const logo = "/public/assets/logo/logo.jpg";
+  // const logo = "/src/assets/logo/logo.jpg";
   const items = [
     {
       label: <Link to="/">Home</Link>,
@@ -21,7 +22,7 @@ export default function MainHeader() {
       key: "services",
     },
     {
-      label:  <a href="#partners">Partners</a>,
+      label: <a href="#partners">Partners</a>,
       key: "partners",
     },
     {
@@ -31,7 +32,6 @@ export default function MainHeader() {
   ];
 
   const [selectedKey, setSelectedKey] = useState<string>("");
-
 
   return (
     <div className="main_header">
