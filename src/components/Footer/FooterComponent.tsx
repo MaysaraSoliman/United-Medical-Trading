@@ -1,6 +1,17 @@
 import { Typography, Row, Col } from "antd";
 import "./footer.css";
 
+import FacebookIcon from "/src/assets/linksIcons/facebook.png";
+import TwitterIcon from "/src/assets/linksIcons/twitter.png";
+import InstagranIcon from "/src/assets/linksIcons/instagram.png";
+import LinkedInIcon from "/src/assets/linksIcons/linkedin.png";
+import ContactMailIcon from "/src/assets/linksIcons/contact-mail.png";
+import CallIcon from "/src/assets/linksIcons/call.png";
+import MailIcon from "/src/assets/linksIcons/call.png";
+import WorldIcon from "/src/assets/linksIcons/world-wide-web.png";
+import LocationIcon from "/src/assets/linksIcons/location.png";
+import ClockIcon from "/src/assets/linksIcons/clock-icon-red.png";
+
 const { Title, Text } = Typography;
 export default function FooterComponent() {
   return (
@@ -24,14 +35,16 @@ export default function FooterComponent() {
                   <li>
                     <div className="image_box">
                       <a href="https://www.facebook.com/" target="_blank">
-                        <img src="/src/assets/linksIcons/facebook.png" alt="" />
+                        <img src={FacebookIcon} alt="" />
+                        {/* <img src="/src/assets/linksIcons/facebook.png" alt="" /> */}
                       </a>
                     </div>
                   </li>
                   <li>
                     <div className="image_box">
                       <a href="https://www.twitter.com/" target="_blank">
-                        <img src="/src/assets/linksIcons/twitter.png" alt="" />
+                        <img src={TwitterIcon} alt="" />
+                        {/* <img src="/src/assets/linksIcons/twitter.png" alt="" /> */}
                       </a>
                     </div>
                   </li>
@@ -39,7 +52,8 @@ export default function FooterComponent() {
                     <div className="image_box">
                       <a href="https://www.instagram.com/" target="_blank">
                         <img
-                          src="/src/assets/linksIcons/instagram.png"
+                          src={InstagranIcon}
+                          // src="/src/assets/linksIcons/instagram.png"
                           alt=""
                         />
                       </a>
@@ -48,7 +62,8 @@ export default function FooterComponent() {
                   <li>
                     <div className="image_box">
                       <a href="https://www.linkedin.com/" target="_blank">
-                        <img src="/src/assets/linksIcons/linkedin.png" alt="" />
+                        <img src={LinkedInIcon} alt="" />
+                        {/* <img src="/src/assets/linksIcons/linkedin.png" alt="" /> */}
                       </a>
                     </div>
                   </li>
@@ -59,7 +74,8 @@ export default function FooterComponent() {
               <div className="col_box">
                 <div className="title_container">
                   <div className="image_box">
-                    <img src="/src/assets/linksIcons/contact-mail.png" alt="" />
+                    <img src={ContactMailIcon} alt="" />
+                    {/* <img src="/src/assets/linksIcons/contact-mail.png" alt="" /> */}
                   </div>
                   <div className="title_box">
                     <Title level={3}>Contact & Support</Title>
@@ -68,7 +84,8 @@ export default function FooterComponent() {
                 <ul className="contact_icons">
                   <li>
                     <div className="image_box">
-                      <img src="/src/assets/linksIcons/call.png" alt="" />
+                      <img src={CallIcon} alt="" />
+                      {/* <img src="/src/assets/linksIcons/call.png" alt="" /> */}
                     </div>
                     <a href="tel:+97452009991" title="Call us">
                       +97452009991
@@ -76,7 +93,8 @@ export default function FooterComponent() {
                   </li>
                   <li>
                     <div className="image_box">
-                      <img src="/src/assets/linksIcons/mail.png" alt="" />
+                      <img src={MailIcon} alt="" />
+                      {/* <img src="/src/assets/linksIcons/mail.png" alt="" /> */}
                     </div>
                     <a
                       href="mailto: info@unitedmedicaltrading.com"
@@ -89,7 +107,8 @@ export default function FooterComponent() {
                   <li>
                     <div className="image_box">
                       <img
-                        src="/src/assets/linksIcons/world-wide-web.png"
+                        src={WorldIcon}
+                        // src="/src/assets/linksIcons/world-wide-web.png"
                         alt=""
                       />
                     </div>
@@ -103,7 +122,8 @@ export default function FooterComponent() {
                   </li>
                   <li>
                     <div className="image_box">
-                      <img src="/src/assets/linksIcons/location.png" alt="" />
+                      <img src={LocationIcon} alt="" />
+                      {/* <img src="/src/assets/linksIcons/location.png" alt="" /> */}
                     </div>
                     <a
                       href="https://maps.app.goo.gl/4SuQZfdy7pz2fNHB6"
@@ -121,7 +141,8 @@ export default function FooterComponent() {
                 <div className="title_container">
                   <div className="image_box">
                     <img
-                      src="/src/assets/linksIcons/clock-icon-red.png"
+                      src={ClockIcon}
+                      // src="/src/assets/linksIcons/clock-icon-red.png"
                       alt=""
                     />
                   </div>

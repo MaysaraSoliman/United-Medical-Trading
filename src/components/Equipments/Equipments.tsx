@@ -4,6 +4,12 @@ import Slider from "react-slick";
 
 const { Title } = Typography;
 
+import Moji from "/src/assets/equipments/moji.png";
+import ComprehensiveSkin from "/src/assets/equipments/comprehensive skin management.png";
+import OxygenHydra from "/src/assets/equipments/oxygen hydra microdermabrasion.png";
+import BodyAnalyzer from "/src/assets/equipments/body analyzer.png";
+import Cryomed from "/src/assets/equipments/cryomed.png";
+
 export default function Equipments() {
   const settings = {
     dots: true,
@@ -39,7 +45,8 @@ export default function Equipments() {
               <Slider {...settings}>
                 <div className="card_box">
                   <div className="image_box">
-                    <img src="/src/assets/equipments/moji.png" alt="moji" />
+                    <img src={Moji} alt="moji" />
+                    {/* <img src="/src/assets/equipments/moji.png" alt="moji" /> */}
                   </div>
                   <div className="info_box">
                     <div className="equipment_title">
@@ -60,7 +67,8 @@ export default function Equipments() {
                 <div className="card_box">
                   <div className="image_box">
                     <img
-                      src="/src/assets/equipments/comprehensive skin management.png"
+                      src={ComprehensiveSkin}
+                      // src="/src/assets/equipments/comprehensive skin management.png"
                       alt="comprehensive skin management"
                     />
                   </div>
@@ -83,7 +91,8 @@ export default function Equipments() {
                 <div className="card_box">
                   <div className="image_box">
                     <img
-                      src="/src/assets/equipments/oxygen hydra microdermabrasion.png"
+                      src={OxygenHydra}
+                      // src="/src/assets/equipments/oxygen hydra microdermabrasion.png"
                       alt="ocygen hyrda microdermabrasion"
                     />
                   </div>
@@ -106,7 +115,8 @@ export default function Equipments() {
                 <div className="card_box">
                   <div className="image_box">
                     <img
-                      src="/src/assets/equipments/body analyzer.png"
+                      src={BodyAnalyzer}
+                      // src="/src/assets/equipments/body analyzer.png"
                       alt="body analyzer"
                     />
                   </div>
@@ -124,7 +134,8 @@ export default function Equipments() {
                 <div className="card_box">
                   <div className="image_box">
                     <img
-                      src="/src/assets/equipments/cryomed.png"
+                      src={Cryomed}
+                      // src="/src/assets/equipments/cryomed.png"
                       alt="cryomed basic"
                     />
                   </div>

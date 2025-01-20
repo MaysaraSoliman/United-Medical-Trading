@@ -1,6 +1,10 @@
 import { useState } from "react";
 import "./services.css";
 import { Col, Row, Space, Typography } from "antd";
+import ImagingSystems from "/src/assets/services/ct-scan.png";
+import SurgicalInstruments from "/src/assets/services/surgical-instrument.png";
+import DiagnosticEquipments from "/src/assets/services/diagnostic.png";
+import RehabilitaionAids from "/src/assets/services/massage.png";
 
 const { Title, Paragraph } = Typography;
 
@@ -27,7 +31,8 @@ export default function Services() {
                   align="center"
                 >
                   <div className="icon_box">
-                    <img src="/src/assets/services/ct-scan.png" alt="" />
+                    <img src={ImagingSystems} alt="icon" />
+                    {/* <img src="/src/assets/services/ct-scan.png" alt="icon" /> */}
                   </div>
                   <Title level={3}>Advanced Imaging Systems</Title>
                   <Paragraph
@@ -55,8 +60,9 @@ export default function Services() {
                 >
                   <div className="icon_box">
                     <img
-                      src="/src/assets/services/surgical-instrument.png"
-                      alt=""
+                      src={SurgicalInstruments}
+                      // src="/src/assets/services/surgical-instrument.png"
+                      alt="icon"
                     />
                   </div>
                   <Title level={3}>Surgical Instruments</Title>
@@ -84,7 +90,8 @@ export default function Services() {
                   align="center"
                 >
                   <div className="icon_box">
-                    <img src="/src/assets/services/diagnostic.png" alt="" />
+                    <img src={DiagnosticEquipments} alt="icon" />
+                    {/* <img src="/src/assets/services/diagnostic.png" alt="icon" /> */}
                   </div>
                   <Title level={3}>Diagnostic Equipments</Title>
                   <Paragraph
@@ -116,7 +123,8 @@ export default function Services() {
                   align="center"
                 >
                   <div className="icon_box">
-                    <img src="/src/assets/services/massage.png" alt="" />
+                    <img src={RehabilitaionAids} alt="icon" />
+                    {/* <img src="/src/assets/services/massage.png" alt="icon" /> */}
                   </div>
                   <Title level={3}>Rehabilitaion Aids</Title>
                   <Paragraph
