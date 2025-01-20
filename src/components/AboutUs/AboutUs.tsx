@@ -1,5 +1,6 @@
 import "./aboutUs.css";
 import { Flex, Typography } from "antd";
+import AboutUsImage from "/src/assets/about/about-img.jpg";
 
 const { Title, Paragraph } = Typography;
 
@@ -40,7 +41,8 @@ export default function AboutUs() {
           </div>
           <div className="image_container">
             <div className="image_box">
-              <img src="/src/assets/about/about-img.jpg" alt="" />
+              <img src={AboutUsImage} alt="about-image" />
+              {/* <img src="/src/assets/about/about-img.jpg" alt="" /> */}
             </div>
           </div>
         </Flex>

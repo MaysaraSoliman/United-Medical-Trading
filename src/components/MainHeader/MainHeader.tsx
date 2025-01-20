@@ -3,10 +3,11 @@ import MobileNavBar from "../MobileNavBar/MobileNavBar";
 import DesktopNavBar from "../DesktopNavBar/DesktopNavBar";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import logo from "/public/assets/logo/logo.jpg";
 
 export default function MainHeader() {
   const isMobile = useMediaQuery({ query: "(min-width: 600px)" });
-  const logo = "/public/assets/logo/logo.jpg";
+  // const logo = "/public/assets/logo/logo.jpg";
   // const logo = "/src/assets/logo/logo.jpg";
   const items = [
     {
