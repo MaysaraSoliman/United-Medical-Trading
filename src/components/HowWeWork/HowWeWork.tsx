@@ -17,50 +17,49 @@ export default function HowWeWork() {
     {
       title: `Medical & Analytical`,
       // imageSrc: { MedicalAnalytical },
-      imageSrc: "/public/assets/howWeWork/medical analytical.png",
+      imageSrc: "/assets/howWeWork/medical analytical.png",
       content:
         "Focuses on distributing medical/analytical equipment,devices, and supplies. Our range covers Medical,Physiotherapy, Dermatology, Gynaecology, Radiography(X-Ray), Ultrasound, Simulation, and Emergency care products. We provide detailed training to customers on using and maintaining supplied equipment, and participate in regional medical events to highlight our products and connect with industry peers.",
     },
     {
       title: `Research & Scientific & Simulation`,
       // imageSrc: { Research },
-      imageSrc: "/public/assets/howWeWork/research.png",
+      imageSrc: "/assets/howWeWork/research.png",
       content:
         "Engages in research and scientific projects, primarily serving scientists and researchers. We provide comprehensive support, including supply, installation, commissioning, training, and post-sale support, for all solutions and equipment offered by our department.",
     },
     {
       title: `Beauty & Health`,
       // imageSrc: { Healthcare },
-      imageSrc: "/public/assets/howWeWork/healthcare.png",
+      imageSrc: "/assets/howWeWork/healthcare.png",
       content:
         "Launched to spearhead the beauty and health market, this division serves as the official distributor for ADWIN KOREA, specializing in dermatological consumables.",
     },
     {
       title: `Hospital Furniture`,
       // imageSrc: { Hospital },
-      imageSrc: "/public/assets/howWeWork/hospital-svgrepo-com.png",
+      imageSrc: "/assets/howWeWork/hospital-svgrepo-com.png",
       content:
         "Providing high-quality hospital furniture solutions tailored to meet the evolving needs of healthcare facilities in Qatar. Our extensive range of products includes everything from examination tables and chairs to surgical instruments and medical equipment, all sourced from reputable manufacturers around the globe.",
     },
     {
       title: `Consumer Products`,
       // imageSrc: { Consumer },
-      imageSrc: "/public/assets/howWeWork/consumer-svgrepo-com.png",
+      imageSrc: "/assets/howWeWork/consumer-svgrepo-com.png",
       content:
         "At United Medical Trading, we believe in empowering individuals with the tools necessary to manage their health effectively, making us the go-to choice for consumers seeking reliable and affordable medical products. From everyday essentials like first aid kits and thermometers to specialized products such as blood pressure monitors and portable oxygen concentrators, our curated collection caters to a broad spectrum of health and wellness needs.",
     },
     {
       title: `Dental Products`,
       // imageSrc: { Dental },
-      imageSrc: "/public/assets/howWeWork/chair-tooth-svgrepo-com.png",
+      imageSrc: "/assets/howWeWork/chair-tooth-svgrepo-com.png",
       content:
         "As a trusted partner in the medical trading sector, United Medical Trading prides itself on providing dental professionals with the tools they need to thrive, backed by unparalleled service and expertise. Explore our dental product range today and discover how we're setting new benchmarks in dental supply and innovation in Qatar.",
     },
     {
       title: `Laboratory Products`,
       // imageSrc: { Laboratory },
-      imageSrc:
-        "/public/assets/howWeWork/laboratory-microscope-svgrepo-com.png",
+      imageSrc: "/assets/howWeWork/laboratory-microscope-svgrepo-com.png",
       content:
         "United Medical Trading brings to Qatar a comprehensive range of laboratory products, ensuring that medical laboratories have access to the most advanced and reliable equipment and supplies needed for accurate diagnostics and research. Our selection includes state-of-the-art lab instruments, reagents, and consumables, carefully chosen from renowned global manufacturers to meet the stringent requirements of modern pathology and biomedical research.",
     },
