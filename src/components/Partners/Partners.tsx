@@ -4,23 +4,23 @@ import Slider from "react-slick";
 
 const { Title } = Typography;
 
-import Logo26 from "/src/assets/partners/26.jpg";
-import Logo27 from "/src/assets/partners/26.jpg";
-import Logo28 from "/src/assets/partners/26.jpg";
-import Logo29 from "/src/assets/partners/26.jpg";
-import Logo30 from "/src/assets/partners/26.jpg";
-import Logo31 from "/src/assets/partners/26.jpg";
-import Logo32 from "/src/assets/partners/26.jpg";
-import Logo33 from "/src/assets/partners/26.jpg";
-import Logo34 from "/src/assets/partners/26.jpg";
-import Logo35 from "/src/assets/partners/26.jpg";
-import Logo36 from "/src/assets/partners/26.jpg";
-import Logo37 from "/src/assets/partners/26.jpg";
-import Logo38 from "/src/assets/partners/26.jpg";
-import Logo39 from "/src/assets/partners/26.jpg";
-import Logo40 from "/src/assets/partners/26.jpg";
-import Logo41 from "/src/assets/partners/26.jpg";
-import Logo42 from "/src/assets/partners/26.jpg";
+// import Logo26 from "/src/assets/partners/26.jpg";
+// import Logo27 from "/src/assets/partners/26.jpg";
+// import Logo28 from "/src/assets/partners/26.jpg";
+// import Logo29 from "/src/assets/partners/26.jpg";
+// import Logo30 from "/src/assets/partners/26.jpg";
+// import Logo31 from "/src/assets/partners/26.jpg";
+// import Logo32 from "/src/assets/partners/26.jpg";
+// import Logo33 from "/src/assets/partners/26.jpg";
+// import Logo34 from "/src/assets/partners/26.jpg";
+// import Logo35 from "/src/assets/partners/26.jpg";
+// import Logo36 from "/src/assets/partners/26.jpg";
+// import Logo37 from "/src/assets/partners/26.jpg";
+// import Logo38 from "/src/assets/partners/26.jpg";
+// import Logo39 from "/src/assets/partners/26.jpg";
+// import Logo40 from "/src/assets/partners/26.jpg";
+// import Logo41 from "/src/assets/partners/26.jpg";
+// import Logo42 from "/src/assets/partners/26.jpg";
 
 export default function Partners() {
   const settings = {
@@ -82,23 +82,23 @@ export default function Partners() {
     // { logo: "/src/assets/partners/23.jpg" },
     // { logo: "/src/assets/partners/24.jpg" },
     // { logo: "/src/assets/partners/25.jpg" },
-    { logo: { Logo26 } },
-    { logo: { Logo27 } },
-    { logo: { Logo28 } },
-    { logo: { Logo29 } },
-    { logo: { Logo30 } },
-    { logo: { Logo31 } },
-    { logo: { Logo32 } },
-    { logo: { Logo33 } },
-    { logo: { Logo34 } },
-    { logo: { Logo35 } },
-    { logo: { Logo36 } },
-    { logo: { Logo37 } },
-    { logo: { Logo38 } },
-    { logo: { Logo39 } },
-    { logo: { Logo40 } },
-    { logo: { Logo41 } },
-    { logo: { Logo42 } },
+    { logo: "/public/assets/partners/26.jpg" },
+    { logo: "/public/assets/partners/27.jpg" },
+    { logo: "/public/assets/partners/28.jpg" },
+    { logo: "/public/assets/partners/29.jpg" },
+    { logo: "/public/assets/partners/30.jpg" },
+    { logo: "/public/assets/partners/31.jpg" },
+    { logo: "/public/assets/partners/32.jpg" },
+    { logo: "/public/assets/partners/33.jpg" },
+    { logo: "/public/assets/partners/34.jpg" },
+    { logo: "/public/assets/partners/35.jpg" },
+    { logo: "/public/assets/partners/36.jpg" },
+    { logo: "/public/assets/partners/37.jpg" },
+    { logo: "/public/assets/partners/38.jpg" },
+    { logo: "/public/assets/partners/39.jpg" },
+    { logo: "/public/assets/partners/40.png" },
+    { logo: "/public/assets/partners/41.jpg" },
+    { logo: "/public/assets/partners/42.png" },
   ];
 
   return (
